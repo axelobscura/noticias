@@ -6,7 +6,7 @@ function IndexPage() {
   return (
     <>
       <Head>
-        <title>My page title</title>
+        <title>NOTIEXPRESS</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet"></link>
         <link
