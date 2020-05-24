@@ -32,6 +32,7 @@ const Index = ({ posts }) => (
 
 export async function getStaticProps() {
     //const res = await fetch('https://newsapi.org/v2/top-headlines?country=mx&apiKey=d6e94ae6348c44ab9b20c475613aae01')
+    const images = await featch('https://pixabay.com/api/?key=16724135-621b009083b44d598216ac09a&q=construction&image_type=photo&pretty=true');
     const posts = require('./api/datos.json');
 
     console.log("Datos" + posts.store);
