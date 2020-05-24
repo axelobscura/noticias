@@ -1,0 +1,54 @@
+{
+    "store": {
+        "abril2020": {
+            "secciones": [
+                {
+                    "titulo": "portada",
+                    "autor": "IMCYC",
+                    "descripcion": "Una descripcion",
+                    "contenido": "Sayings of the Century",
+                    "imagenes": ["1","2","3"]
+                },
+                {
+                    "titulo": "ingenieria",
+                    "autor": "IMCYC",
+                    "descripcion": "Una descripcion",
+                    "contenido": "Sayings of the Century",
+                    "imagenes": ["1","2","3"]
+                },
+                {
+                    "titulo": "arquitectura",
+                    "autor": "IMCYC",
+                    "descripcion": "Una descripcion",
+                    "contenido": "Sayings of the Century",
+                    "imagenes": ["1","2","3"]
+                },
+                {
+                    "titulo": "portada",
+                    "autor": "IMCYC",
+                    "descripcion": "Una descripcion",
+                    "contenido": "Sayings of the Century",
+                    "imagenes": ["1","2","3"]
+                },
+                {
+                    "titulo": "ingenieria",
+                    "autor": "IMCYC",
+                    "descripcion": "Una descripcion",
+                    "contenido": "Sayings of the Century",
+                    "imagenes": ["1","2","3"]
+                },
+                {
+                    "titulo": "arquitectura",
+                    "autor": "IMCYC",
+                    "descripcion": "Una descripcion",
+                    "contenido": "Sayings of the Century",
+                    "imagenes": ["1","2","3"]
+                }
+            ]
+        },
+        "bicycle": {
+            "color": "red",
+            "price": 19.95
+        }
+    }
+}

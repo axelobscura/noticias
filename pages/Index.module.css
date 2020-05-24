@@ -1,0 +1,46 @@
+.cardas {
+    height: 100vh;
+    overflow: auto;
+    background: #111;
+}
+.cardas .col {
+    height: 100vh;
+    overflow: auto;
+    background: #333;
+    
+}
+.carta {
+    height: 100vh;
+    background: #ddd;
+}
+.carta .imagen {
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    border: 0;
+    z-index: 1;
+}
+.carta .imagen img {
+    width: 100%;
+}
+.carta .cuerpo {
+    z-index: 10;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carta h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.carta p {
+    color: #d2d2d2;
+    text-transform: uppercase;
+}
