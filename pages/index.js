@@ -37,6 +37,8 @@ export async function getStaticProps() {
 
     console.log("Datos" + posts.store);
 
+    console.log("Datos" + images);
+
     return {
         props: {
             posts,
