@@ -15,18 +15,18 @@ function IndexPage() {
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         />
       </Head>
-      <Navbar expand="lg" style={{background: '#999'}}>
+      <Navbar expand="lg" style={{background: '#111'}}>
         <Navbar.Brand href="#home">
         <img src="/logo.png" alt="my image" style={{ width: '230px'}} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/somos">Home</Nav.Link>
-            <Nav.Link href="/somos">Link</Nav.Link>
+            <Nav.Link href="/somos" style={{color: '#fff'}}>Home</Nav.Link>
+            <Nav.Link href="/somos" style={{color: '#fff'}}>Link</Nav.Link>
           </Nav>
           <Nav className="mr-sm-2">
-            <Nav.Link href="/somos">Link</Nav.Link>
+            <Nav.Link href="/somos" style={{color: '#fff'}}>Link</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

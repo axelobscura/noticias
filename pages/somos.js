@@ -1,7 +1,10 @@
+import Head from './layout/head';
+
 const Somos = () => (
-    <div>
+    <>
+        <Head />
         <h1>SOMOS</h1>
-    </div>
+    </>
 )
 
 export default Somos;
