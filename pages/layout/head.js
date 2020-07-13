@@ -16,17 +16,16 @@ function IndexPage() {
         />
       </Head>
       <Navbar expand="lg" style={{background: '#111'}}>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
         <img src="/logo.png" alt="my image" style={{ width: '230px'}} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/somos" style={{color: '#fff'}}>Home</Nav.Link>
-            <Nav.Link href="/somos" style={{color: '#fff'}}>Link</Nav.Link>
+            <Nav.Link href="/somos" style={{color: '#fff'}}>SOMOS</Nav.Link>
           </Nav>
           <Nav className="mr-sm-2">
-            <Nav.Link href="/somos" style={{color: '#fff'}}>Link</Nav.Link>
+            <Nav.Link href="/contacto" style={{color: '#fff'}}>CONTACTO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
