@@ -25,6 +25,9 @@ function IndexPage() {
             <Nav.Link href="/somos" style={{color: '#fff'}}>SOMOS</Nav.Link>
           </Nav>
           <Nav className="mr-sm-2">
+            <Nav.Link href="/contacto" style={{color: '#fff'}}>PRUEBA</Nav.Link>
+          </Nav>
+          <Nav className="mr-sm-2">
             <Nav.Link href="/contacto" style={{color: '#fff'}}>CONTACTO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
