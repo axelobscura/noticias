@@ -7,7 +7,7 @@ const Contacto = () => (
         <Head />
         <Container fluid>
             <Row className="flex-row flex-nowrap justify-content-center align-items-center" style={{height:'90vh'}}>
-                <h1>CONTACTO</h1>
+                <h1>CONTACTO ----</h1>
             </Row>
         </Container>
     </>
